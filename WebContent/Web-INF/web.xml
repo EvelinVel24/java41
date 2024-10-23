@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>PasswordServlet</servlet-name>
+        <servlet-class>controller.PasswordServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>PasswordServlet</servlet-name>
+        <url-pattern>/PasswordServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
